@@ -1,0 +1,11 @@
+.navbar {
+  @apply sticky flex flex-row items-center gap-2 top-0 z-50 bg-gray-900 p-5;
+}
+
+.navbar__input {
+  @apply bg-gray-800 rounded-full px-5 py-2 text-white outline-none;
+}
+
+.navbar__input:focus {
+  @apply ring-2 ring-red-500;
+}
